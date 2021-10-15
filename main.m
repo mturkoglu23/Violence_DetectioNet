@@ -66,3 +66,5 @@ ff3=[fusion',label];
 
 %% fc+relu+fc+softmax (classification process)
 
+accuracy=classification(ff1);
+printf('feature average pooling approach score: %d', accuracy)
