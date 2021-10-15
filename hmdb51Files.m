@@ -1,7 +1,4 @@
 function [files, labels] = hmdb51Files(dataFolder)
-%hmdb51Files List of files and labels from the HMDB dataset
-%   [files, labels] = hmdb51Files(dataFolder) returns a list of files and
-%   labels from the HMDB dataset given by dataFolder
 
 fileExtension = ".avi";
 listing = dir(fullfile(dataFolder, "*", "*" + fileExtension));
